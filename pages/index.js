@@ -226,8 +226,7 @@ export default function Home({ projects, services }) {
       <section
         className="py-20 bg-dark-blue text-white bg-cover bg-center relative"
         style={{
-          backgroundImage:
-            "url('/images/handyman-standing-in-front-of-kitchen.jpg')",
+          backgroundImage: "url('/images/handyman-kitchen-remodel.jpg')",
         }}
       >
         <div className="bumper relative z-10">
