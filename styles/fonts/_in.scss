@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "in";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/in/in-medium.woff2") format("woff2"),
+    url("/fonts/in/in-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "in";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/in/in-regular.woff2") format("woff2"),
+    url("/fonts/in/in-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "in";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/in/in-bold.woff2") format("woff2"),
+    url("/fonts/in/in-bold.woff") format("woff");
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "s";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/s/s-light.woff2") format("woff2"),
+    url("/fonts/s/s-light.woff") format("woff");
+}
+@font-face {
+  font-family: "s";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/s/s-regular.woff2") format("woff2"),
+    url("/fonts/s/s-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "s";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/s/s-bold.woff2") format("woff2"),
+    url("/fonts/s/s-bold.woff") format("woff");
+}

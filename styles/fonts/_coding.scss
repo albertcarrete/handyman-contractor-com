@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "coding";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/coding/coding-regular.woff2") format("woff2"),
+    url("/fonts/coding/coding-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "coding";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/coding/coding-bold.woff2") format("woff2"),
+    url("/fonts/coding/coding-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "coding";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/coding/coding-extrabold.woff2") format("woff2"),
+    url("/fonts/coding/coding-extrabold.woff") format("woff");
+}

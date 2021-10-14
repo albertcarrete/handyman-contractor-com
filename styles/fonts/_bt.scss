@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "bt";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/bt/bt-regular.woff2") format("woff2"),
+    url("/fonts/bt/bt-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "bt";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/bt/bt-medium.woff2") format("woff2"),
+    url("/fonts/bt/bt-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "bt";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/bt/bt-bold.woff2") format("woff2"),
+    url("/fonts/bt/bt-bold.woff") format("woff");
+}

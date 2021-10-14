@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "ginto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/ginto/Ginto-Regular.woff2") format("woff2"),
+    url("/fonts/ginto/Ginto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ginto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/ginto/Ginto-Medium.woff2") format("woff2"),
+    url("/fonts/ginto/Ginto-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "ginto";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/ginto/Ginto-Bold.woff2") format("woff2"),
+    url("/fonts/ginto/Ginto-Bold.woff") format("woff");
+}

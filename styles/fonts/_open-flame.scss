@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "open-flame";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/open-flame/open-flame-book.woff2") format("woff2"),
+    url("/fonts/open-flame/open-flame-book.woff") format("woff");
+}
+@font-face {
+  font-family: "open-flame";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/open-flame/open-flame-medium.woff2") format("woff2"),
+    url("/fonts/open-flame/open-flame-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "open-flame";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/open-flame/open-flame-semi-bold.woff2") format("woff2"),
+    url("/fonts/open-flame/open-flame-semi-bold.woff") format("woff");
+}

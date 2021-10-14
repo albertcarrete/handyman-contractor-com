@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "handymancontractor.com",
+      "script": "npm",
+      "args": "start"
+    }
+  ]
+}
