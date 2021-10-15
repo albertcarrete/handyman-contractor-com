@@ -136,16 +136,21 @@ export default function Home({ projects, services }) {
                 (951) 734-3070
               </a>
             </p>
-            <Link href="/contact">
-              <a className="button button--teal text-center block md:inline-block md:mr-4 mb-4 md:mb-0">
-                Get a Free Estimate
-              </a>
-            </Link>
-            <Link href="/services">
-              <a className="button text-center button--white block md:inline-block mb-4">
-                Explore Services
-              </a>
-            </Link>
+            <div>
+              <Link href="/contact">
+                <a className="button button--teal text-center block md:inline-block md:mr-4 mb-4 md:mb-0">
+                  Get a Free Estimate
+                </a>
+              </Link>
+              <Link href="/services">
+                <a className="button text-center button--white block md:inline-block mb-4">
+                  Explore Services
+                </a>
+              </Link>
+            </div>
+            <div className="text-base text-gray-500">
+              Contractor's License #558374
+            </div>
           </div>
         </div>
       </section>
@@ -239,9 +244,9 @@ export default function Home({ projects, services }) {
               professionals for handling all types and sizes of repair and
               installation jobs for homes and businesses.
             </p>
-            <button type="button" className="button button--bright-teal">
-              Get a Free Estimate
-            </button>
+            <Link href="/contact">
+              <a className="button button--bright-teal">Get a Free Estimate</a>
+            </Link>
           </div>
         </div>
         <div
@@ -274,8 +279,6 @@ export default function Home({ projects, services }) {
             a big franchise. At Handyman Contractor we are happy to serve you by
             getting the job done right, on time and on budget.
           </p>
-          home improvement and repair, providing virtually any home repair,
-          installation and maintenance service
           <p>
             You will find no better handyman in Inland Empire or Orange County,
             CA than those at Handyman Contractor. We focus on providing a
