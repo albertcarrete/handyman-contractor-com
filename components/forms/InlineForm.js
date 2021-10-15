@@ -69,7 +69,7 @@ export default function InlineForm() {
         >
           <div className="grid grid-cols-2 gap-4 mb-4">
             <Field
-              name="name"
+              name="Name"
               label="Name"
               validate={required}
               component={TextInput}
@@ -77,7 +77,7 @@ export default function InlineForm() {
               required
             />
             <Field
-              name="phone"
+              name="Phone"
               label="Phone"
               validate={composeValidators(required, phoneValidation)}
               component={PhoneInput}
@@ -85,7 +85,7 @@ export default function InlineForm() {
               required
             />
             <Field
-              name="email"
+              name="Email"
               label="Email"
               validate={composeValidators(required, emailValidator)}
               component={EmailInput}
@@ -93,7 +93,7 @@ export default function InlineForm() {
               required
             />
             <Field
-              name="zipcode"
+              name="Zipcode"
               label="Zip Code"
               component={ZipCodeInput}
               validate={composeValidators(required)}
@@ -101,7 +101,7 @@ export default function InlineForm() {
               required
             />
             <Field
-              name="message"
+              name="Message"
               label="Message"
               component={TextAreaInput}
               validate={composeValidators(required)}
