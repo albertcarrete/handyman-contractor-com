@@ -68,7 +68,8 @@ export default function Footer() {
           </Link>
           <div className="text-base">
             <p className="font-medium">Handyman Contractor</p>
-            <p className="block mb-2">1512 S Main St, Corona, CA 92882</p>
+            <p className="block">1512 S Main St, Corona, CA 92882</p>
+            <p className="mb-2">Contractor's License #558374</p>
             <a href="tel:9517343070" className="block">
               (951) 734-3070
             </a>
@@ -106,8 +107,10 @@ export default function Footer() {
       </div>
       <div id="subFooter" className="bg-gray-50 py-5">
         <div className="text-base bumper text-center md:text-left md:flex justify-between">
-          <p>{new Date().getFullYear()} Handyman Contractor</p>
-          <a href="https://squarematter.com">Built by Square Matter</a>
+          <p>©{new Date().getFullYear()} Handyman Contractor</p>
+          <a rel="nofollow" href="https://squarematter.com">
+            Built by Square Matter
+          </a>
         </div>
       </div>
     </footer>
