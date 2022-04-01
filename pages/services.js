@@ -17,12 +17,12 @@ export default function ServicesPage({ services }) {
       <NextSeo
         title="Services"
         description="appliance repair, electric, HVAC, flooring, plumbing, remodels, and more. Get a free estimate!"
-        canonical={`${process.env.URL}/services`}
+        canonical={`${process.env.NEXT_PUBLIC_URL}/services`}
         openGraph={{
           title: "Services",
           description:
             "appliance repair, electric, HVAC, flooring, plumbing, remodels, and more. Get a free estimate!",
-          url: `${process.env.URL}/services`,
+          url: `${process.env.NEXT_PUBLIC_URL}/services`,
           type: "website",
         }}
       />

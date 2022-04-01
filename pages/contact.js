@@ -10,19 +10,19 @@ export default function contactPage() {
         links={[
           {
             name: "Contact",
-            url: "/contact-us",
+            url: "/contact",
           },
         ]}
       />
       <NextSeo
         title="Contact"
         description="Need home repair or improvements? Commercial or construction services? Schedule your service with Handyman Contractor in Inland Empire or Orange County."
-        canonical={`${process.env.URL}/contact`}
+        canonical={`${process.env.NEXT_PUBLIC_URL}/contact`}
         openGraph={{
           title: "Contact",
           description:
             "Need home repair or improvements? Commercial or construction services? Schedule your service with Handyman Contractor in Inland Empire or Orange County.",
-          url: `${process.env.URL}/contact`,
+          url: `${process.env.NEXT_PUBLIC_URL}/contact`,
           type: "website",
         }}
       />
