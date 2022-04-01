@@ -97,16 +97,17 @@ export default function Home({ projects, services }) {
 
       <NextSeo
         title=""
-        description="A trusted handyman providing home repair, commercial services, and construction services in Inland Empire & Orange County. Get a free estimate today!."
-        canonical="https://handymancontractor.com"
+        description="A trusted handyman providing home repair, commercial services, and construction services in Inland Empire & Orange County. Get a free estimate today!"
+        canonical="https://www.handymancontractor.com"
         openGraph={{
           title: "Handyman Contractor",
-          description: "",
-          url: "https://handymancontractor.com",
+          description:
+            "A trusted handyman providing home repair, commercial services, and construction services in Inland Empire & Orange County. Get a free estimate today!",
+          url: "https://www.handymancontractor.com",
           type: "website",
           images: [
             {
-              url: `https://handymancontractor.com/images/opengraph.jpg`,
+              url: `https://www.handymancontractor.com/images/opengraph.jpg`,
             },
           ],
         }}
